@@ -213,8 +213,43 @@
 		$(window).stellar();
 	};
 
+	var rsvpForm = function() {
+		$(".form-rsvp").submit(function(e){
+			e.preventDefault();
+
+			var inputEmail = $("[name=rsvp-email]").val();
+			var inputName = $("[name=rsvp-name]").val();
+			
+			var data = 
+			{
+				name: inputName,
+				email: inputEmail
+			}
+
+			// Send the data using post
+			var posting = $.post( "rsvp-submit.php", data );
+
+			// Put the results in a div
+			posting.done(function( data ) {
+				var response = JSON.parse(data);
+				
+				if (response["success"]) {
+					$(".rsvp-text").text("Thanks for RSVPing!");
+					$(".form-rsvp").slideUp();
+					return;
+				}
+
+				$(".rsvp-text").text(response["message"]);
+				return;
+			});
+
+
+		});
+	};
+
 	
 	$(function(){
+		
 		mobileMenuOutsideClick();
 		parallax();
 		offcanvasMenu();
@@ -226,6 +261,7 @@
 		loaderPage();
 		counter();
 		counterWayPoint();
+		rsvpForm();
 	});
 
 
