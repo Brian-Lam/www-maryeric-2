@@ -6,7 +6,7 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Wedding Resgitry</title>
+	<title>Wedding Registry</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<?php include("templates/toptags.php"); ?>
@@ -19,7 +19,7 @@
 	<div id="page">
 	<?php include("templates/header.php"); ?>
 
-	<header id="fh5co-header" class="fh5co-cover fh5co-cover-sm" role="banner" style="background-image:url(images/img_bg_1.jpg);">
+	<header id="fh5co-header" class="fh5co-cover fh5co-cover-sm" role="banner" style="background-image:url(images/story-s.jpg);">
 		<div class="overlay"></div>
 		<div class="fh5co-container">
 			<div class="row">

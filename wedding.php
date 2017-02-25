@@ -19,7 +19,7 @@
 	<div id="page">
 	<?php include("templates/header.php"); ?>
 
-	<header id="fh5co-header" class="fh5co-cover fh5co-cover-sm" role="banner" style="background-image:url(images/img_bg_1.jpg);">
+	<header id="fh5co-header" class="fh5co-cover fh5co-cover-sm" role="banner" style="background-image:url(images/homepage.jpg);">
 		<div class="overlay"></div>
 		<div class="fh5co-container">
 			<div class="row">
