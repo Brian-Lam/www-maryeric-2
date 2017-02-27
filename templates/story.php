@@ -17,7 +17,7 @@
 
 			<p>Whatever the reason, it drew us both back to Johns Hopkins in 2012 for an alumni reunion weekend. Back on campus it became clear that we really missed spending time together. We started dating long distance with Mary traveling to Chicago and Eric traveling to Boston (even braving a few wicked blizzards) at least one weekend a month. Thousands of air miles and hundreds of restaurant lunches and dinners later, Mary moved to Chicago (for love and to save money on all the air fare, ha!).</p>
 
-			<p>We got engaged in Cancun, Mexico in 2016. And now, almost ten years to the day after we first met as college freshmen at Johns Hopkins, we are getting married. So, thanks Johns Hopkins for the education, for the lifelong friendships with so many amazing people, and for bringing together a girl from East Tennessee and a guy from Flushing, Queens.</p>
+			<p>We got engaged in Cancun, Mexico in 2016. And now, almost ten years to the day after we first met as college sophomores at Johns Hopkins, we are getting married. So, thanks Johns Hopkins for the education, for the lifelong friendships with so many amazing people, and for bringing together a girl from East Tennessee and a guy from Flushing, Queens.</p>
 
 			<p>And, thank you to everyone who cheered us on along the way, and who are celebrating with us. We appreciate your support and are so excited to share our wedding day with you!</p>
 				</div>

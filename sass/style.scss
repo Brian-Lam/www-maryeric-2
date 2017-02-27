@@ -1356,6 +1356,11 @@ form {
 		}
 
 	}
+
+	.form-select option {
+		color: black
+	}
+
 	.btn {
 		height: 54px;
 		border: none!important;
@@ -1382,6 +1387,10 @@ form {
 			margin-bottom: 0;
 		}
 	}
+}
+
+.form-label-p {
+	color: white;
 }
 
 #fh5co-footer {

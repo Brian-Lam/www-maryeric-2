@@ -40,7 +40,7 @@
 				<div class="registry-wrapper"><a href="https://www.amazon.com/wedding/mary-duckett-eric-lam-lemont-september-2017/registry/6GTRFQOFCZ4O" target="_blank">Amazon</a></div>
 				<div class="registry-wrapper"><a href="http://www.crateandbarrel.com/gift-registry/mary-duckett-and-eric-lam/r5588633" target="_blank">Crate and Barrel</a></div>
 				<div class="registry-wrapper"><a href="https://www.anthropologie.com/registry/listing?registryId=YWU0NGI1YZFL" target="_blank">Anthropologie</a></div>
-				<div class="registry-wrapper"><a href="http://www.surlatable.com/registry/giftRegistryList.jsp?id=2001613719133" target="_blank">Sur la table</a></div>
+				<div class="registry-wrapper"><a href="https://secure.williams-sonoma.com/registry/pxrpw2zmzc/registry-list.html" target="_blank">Williams Sonoma</a></div>
 			</div>
 		</div>
 	</div>

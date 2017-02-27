@@ -1125,6 +1125,8 @@ form label {
       color: #fff; }
     #fh5co-started .form-control:focus {
       background: rgba(255, 255, 255, 0.3); }
+  #fh5co-started .form-select option {
+    color: black; }
   #fh5co-started .btn {
     height: 54px;
     border: none !important;
@@ -1144,6 +1146,9 @@ form label {
     margin-bottom: 30px; }
     #fh5co-started .fh5co-heading h2 {
       margin-bottom: 0; }
+
+.form-label-p {
+  color: white; }
 
 @media screen and (max-width: 768px) {
   #fh5co-footer .copyright .pull-left,
