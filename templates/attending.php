@@ -6,9 +6,11 @@
 					<h2>Are You Attending?</h2>
 					<p class="rsvp-text">Please fill out this form to RSVP. Thanks!</p>
 				</div>
+				<button type="submit" class="btn btn-default rsvp-start btn-block">Send Response</button>
+				</div>
 			</div>
 			<div class="row animate-box">
-				<form class="form-inline">
+				<form class="form-inline rsvp-form">
 					<div class="col-md-10 col-md-offset-1">
 						<div class="col-md-12 col-sm-12">
 							<div class="form-group">

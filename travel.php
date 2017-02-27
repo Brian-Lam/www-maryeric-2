@@ -46,7 +46,7 @@
 				</p>
 
 				<h3>Hotel</h3>
-				<p>We have reserved a block of rooms for Saturday and Sunday night (Sept. 2nd and 3rd) at the <a href="http://www.aloftbolingbrook.com/">Aloft Bolingbrook</u>&nbsp;hotel</a>. This modern hotel is a 20-minute drive from the wedding venue and&nbsp;is right across the street from the <a href="https://www.shoppingpromenade.com/">Promenade</a>, a popular outdoor mall with numerous dining and shopping options.</p>
+				<p>We have reserved a block of rooms for Saturday and Sunday night (Sept. 2nd and 3rd) for your convenience at the <a href="http://www.aloftbolingbrook.com/">Aloft Bolingbrook</u>&nbsp;hotel</a>. This modern hotel is a 20-minute drive from the wedding venue and&nbsp;is right across the street from the <a href="https://www.shoppingpromenade.com/">Promenade</a>, a popular outdoor mall with numerous dining and shopping options.</p>
 				<p>To make a reservation, please go to <a href="https://www.starwoodmeeting.com/Book/duckettlam">https://www.starwoodmeeting.com/Book/duckettlam</a>. Or you can&nbsp;call the hotel at&nbsp;<a href="tel:(888)%20625-4957">888-625-4957</a>, and mention that you are a guest of the Duckett-Lam wedding.The rate is $119 a night. If you have trouble booking a room, please let Eric or Mary know. If the Aloft runs out of rooms, we can definitely refer you to other affordable options in the area.&nbsp;&nbsp;</p>
 				
 				<div class="wedding-image-wrapper">

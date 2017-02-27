@@ -247,6 +247,15 @@
 		});
 	};
 
+	var hideRSVPForm = function()
+	{
+		$(".rsvp-form").hide();
+		$(".rsvp-start").click(function(){
+			$(this).slideUp();
+			$(".rsvp-form").slideDown();
+		})
+	}
+
 	
 	$(function(){
 		
@@ -262,6 +271,7 @@
 		counter();
 		counterWayPoint();
 		rsvpForm();
+		hideRSVPForm();
 	});
 
 
