@@ -3,7 +3,7 @@
 		<div class="container">
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>Are You Attending?</h2>
+					<h2>RSVP Here</h2>
 					<p class="rsvp-text">Please fill out this form to RSVP. Thanks!</p>
 				</div>
 				<button type="submit" class="btn btn-default rsvp-start btn-block">Send Response</button>
