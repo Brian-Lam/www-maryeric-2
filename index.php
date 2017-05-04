@@ -108,7 +108,7 @@
 	<script src="js/main.js"></script>
 
 	<script>
-    var d = new Date("2017-09-13");
+    var d = new Date("2017-09-3");
 
     // default example
     simplyCountdown('.simply-countdown-one', {
