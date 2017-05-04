@@ -1,0 +1,7 @@
+<?php
+/* DO NOT PUSH THIS TO REPRO */
+$servername = "localhost";
+$username = "username";
+$password = "password";
+$dbname = "myDB";
+
