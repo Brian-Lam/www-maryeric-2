@@ -1540,4 +1540,7 @@ form label {
   display: block;
   margin-top: 40px;
 }
+.name-label-common {
+  display: none;
+}
 /*# sourceMappingURL=style.css.map */

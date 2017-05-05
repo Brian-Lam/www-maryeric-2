@@ -12,7 +12,7 @@
     }
 
     // Required fields
-    $required_fields = array("name", "attending", "menu", "shuttle", "breakfast", "comments");
+    $required_fields = array("name-1", "attending-1", "menu-1", "shuttle-1", "breakfast-1");
 
     // Check empty fields here
     foreach ($require_fields as $field) {
@@ -34,16 +34,45 @@
     }
 
     // prepare and bind
-    $stmt = $conn->prepare("INSERT INTO RSVP (name, attending, menu, shuttle, breakfast, comments) VALUES (?, ?, ?, ?, ?, ?)");
-    $stmt->bind_param("ssssss", $name, $attending, $menu, $shuttle, $breakfast, $comments);
+    $stmt = $conn->prepare("INSERT INTO RSVP (name1, attending1, menu1, shuttle1, breakfast1, comments1, name2, attending2, menu2, shuttle2, breakfast2, comments2, name3, attending3, menu3, shuttle3, breakfast3, comments3, name4, attending4, menu4, shuttle4, breakfast4, comments4, name5, attending5, menu5, shuttle5, breakfast5, comments5) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
+    $stmt->bind_param("ssssssssssssssssssssssssssssss", $name1, $attending1, $menu1, $shuttle1, $breakfast1, $comments1, $name2, $attending2, $menu2, $shuttle2, $breakfast2, $comments2, $name3, $attending3, $menu3, $shuttle3, $breakfast3, $comments3, $name4, $attending4, $menu4, $shuttle4, $breakfast4, $comments4, $name5, $attending5, $menu5, $shuttle5, $breakfast5, $comments5);
 
     // set parameters and execute
-    $name = $_POST["name"];
-    $attending = $_POST["attending"];
-    $menu = $_POST["menu"];
-    $shuttle = $_POST["shuttle"];
-    $breakfast = $_POST["breakfast"];
-    $comments = $_POST["comments"];
+    $name1 = $_POST["name-1"];
+    $attending1 = $_POST["attending-1"];
+    $menu1 = $_POST["menu-1"];
+    $shuttle1 = $_POST["shuttle-1"];
+    $breakfast1 = $_POST["breakfast-1"];
+    $comments1 = $_POST["comments-1"];
+
+    $name2 = $_POST["name-2"];
+    $attending2 = $_POST["attending-2"];
+    $menu2 = $_POST["menu-2"];
+    $shuttle2 = $_POST["shuttle-2"];
+    $breakfast2 = $_POST["breakfast-2"];
+    $comments2 = $_POST["comments-2"];
+
+    $name3 = $_POST["name-3"];
+    $attending3 = $_POST["attending-3"];
+    $menu3 = $_POST["menu-3"];
+    $shuttle3 = $_POST["shuttle-3"];
+    $breakfast3 = $_POST["breakfast-3"];
+    $comments3 = $_POST["comments-3"];
+
+    $name4 = $_POST["name-4"];
+    $attending4 = $_POST["attending-4"];
+    $menu4 = $_POST["menu-4"];
+    $shuttle4 = $_POST["shuttle-4"];
+    $breakfast4 = $_POST["breakfast-4"];
+    $comments4 = $_POST["comments-4"];
+
+    $name5 = $_POST["name-5"];
+    $attending5 = $_POST["attending-5"];
+    $menu5 = $_POST["menu-5"];
+    $shuttle5 = $_POST["shuttle-5"];
+    $breakfast5 = $_POST["breakfast-5"];
+    $comments5 = $_POST["comments-5"];
+
 
     $stmt->execute();
     $stmt->close();

@@ -33,7 +33,7 @@
 								<div class="col-md-12 col-sm-12">
 									<div class="form-group">
 										<label for="name" class="sr-only">Name</label>
-										<p class="form-label-p">Name <span>(Person <?php echo $i;?>)</span></p>
+										<p class="form-label-p">Name</p>
 										<input type="name" class="form-control" id="name-<?php echo $i;?>" placeholder="Name" name="name-<?php echo $i;?>">
 									</div>
 								</div>
@@ -41,7 +41,7 @@
 								<div class="col-md-12 col-sm-12">
 									<div class="form-group">
 										<label for="attending" class="sr-only">Will you be attending?</label>
-										<p class="form-label-p">Will you be attending? <span class="name-label-<?php echo $i;?>">(Guest <?php echo $i;?>)</span></p>
+										<p class="form-label-p">Will you be attending? <span class="name-label-common name-label-common name-label-<?php echo $i;?>">(Guest <?php echo $i;?>)</span></p>
 										<select name="attending-<?php echo $i;?>" class="form-control form-select">
 											<option>Accepts with Pleasure</option>
 											<option>Declines with Regret</option>
@@ -52,7 +52,7 @@
 								<div class="col-md-12 col-sm-12">
 									<div class="form-group">
 										<label for="attending" class="sr-only">Menu Choice</label>
-										<p class="form-label-p">Menu choice <span class="name-label-<?php echo $i;?>">(Guest <?php echo $i;?>)</span></p>
+										<p class="form-label-p">Menu choice <span class="name-label-common name-label-<?php echo $i;?>">(Guest <?php echo $i;?>)</span></p>
 										<select name="menu-<?php echo $i;?>" class="form-control form-select">
 											<option>Salmon</option>
 											<option>Filet Mignon</option>
@@ -63,7 +63,7 @@
 								<div class="col-md-12 col-sm-12">
 									<div class="form-group">
 										<label for="attending" class="sr-only">Do you plan on using the shuttle?</label>
-										<p class="form-label-p">A shuttle will be available to bring guests from the Aloft Bolingbrook hotel to the wedding on the 3rd. Do you plan to use the shuttle? <span class="name-label-<?php echo $i;?>">(Guest <?php echo $i;?>)</span> </p>
+										<p class="form-label-p">A shuttle will be available to bring guests from the Aloft Bolingbrook hotel to the wedding on the 3rd. Do you plan to use the shuttle? <span class="name-label-common name-label-<?php echo $i;?>">(Guest <?php echo $i;?>)</span> </p>
 										
 										<select name="shuttle-<?php echo $i;?>" class="form-control form-select">
 											<option>Yes</option>
@@ -76,7 +76,7 @@
 								<div class="col-md-12 col-sm-12">
 									<div class="form-group">
 										<label for="attending" class="sr-only">We will host a casual goodbye breakfast on Sept. 4th at the Aloft Bolingbrook. Do you plan to attend? </label>
-										<p class="form-label-p">We will host a casual goodbye breakfast on Sept. 4th at the Aloft Bolingbrook. Do you plan to attend? <span class="name-label-<?php echo $i;?>">(Guest <?php echo $i;?>)</span> </p>
+										<p class="form-label-p">We will host a casual goodbye breakfast on Sept. 4th at the Aloft Bolingbrook. Do you plan to attend? <span class="name-label-common name-label-<?php echo $i;?>">(Guest <?php echo $i;?>)</span> </p>
 										
 										<select name="breakfast-<?php echo $i;?>" class="form-control form-select">
 											<option>Yes</option>
@@ -89,7 +89,7 @@
 								<div class="col-md-12 col-sm-12">
 									<div class="form-group">
 										<label for="comments" class="sr-only">Comments</label>
-										<p class="form-label-p">Other comments <span class="name-label-<?php echo $i;?>">(Guest <?php echo $i;?>)</span> </p>
+										<p class="form-label-p">Other comments <span class="name-label-common name-label-<?php echo $i;?>">(Guest <?php echo $i;?>)</span> </p>
 										<input type="text" class="form-control" id="comments" name="comments-<?php echo $i;?>" placeholder="Other comments or well wishes">
 									</div>
 								</div>
