@@ -1525,4 +1525,19 @@ form label {
 .wedding-h3 {
   margin-top: 20px; }
 
+  .rsvp-form-common
+  {
+    display: none;
+  }
+
+  .rsvp-form-1 {
+    display: block;
+  }
+.guest-label {
+  font-size: 1.4em;
+  color: white;
+  text-align: center;
+  display: block;
+  margin-top: 40px;
+}
 /*# sourceMappingURL=style.css.map */

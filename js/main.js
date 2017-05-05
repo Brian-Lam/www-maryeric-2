@@ -256,6 +256,46 @@
 		})
 	}
 
+	var RSVPFormDynamic = function()
+	{
+		$("#partycount-select").change(function(){
+			var count = $(this).val();
+			$(".rsvp-form-common").hide();
+
+			for (var person = 1; person <= count; person++)
+			{
+				var classname = ".rsvp-form-" + parseInt(person);
+				$(classname).slideDown(40);	
+			}
+		});
+
+		$("#name-1").change(function(){
+			var name = $(this).val();
+			$(".name-label-1").html("(" + name + ")");
+		});
+
+		$("#name-2").change(function(){
+			var name = $(this).val();
+			$(".name-label-2").html("(" + name + ")");
+		});
+
+		$("#name-3").change(function(){
+			var name = $(this).val();
+			$(".name-label-3").html("(" + name + ")");
+		});
+
+		$("#name-4").change(function(){
+			var name = $(this).val();
+			$(".name-label-4").html("(" + name + ")");
+		});
+
+		$("#name-5").change(function(){
+			var name = $(this).val();
+			$(".name-label-5").html("(" + name + ")");
+		});
+
+	}
+
 	
 	$(function(){
 		
@@ -272,6 +312,7 @@
 		counterWayPoint();
 		rsvpForm();
 		hideRSVPForm();
+		RSVPFormDynamic();
 	});
 
 
