@@ -214,7 +214,7 @@
 	};
 
 	var rsvpForm = function() {
-		$(".form-rsvp").submit(function(e){
+		$(".rsvp-form").submit(function(e){
 			e.preventDefault();
 
 			var inputEmail = $("[name=rsvp-email]").val();
