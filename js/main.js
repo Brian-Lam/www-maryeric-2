@@ -217,9 +217,8 @@
 		$(".rsvp-form").submit(function(e){
 			e.preventDefault();
 
-			var inputEmail = $("[name=rsvp-email]").val();
-			var inputName = $("[name=rsvp-name]").val();
-			
+			$(".rsvp-submit-send").hide();
+
 			var data = $('.rsvp-form').serialize();
 
 			// Send the data using post
@@ -231,7 +230,7 @@
 				
 				if (response["success"]) {
 					$(".rsvp-text").text("Thanks for RSVPing!");
-					$(".form-rsvp").slideUp();
+					$(".rsvp-form").slideUp();
 					return;
 				}
 

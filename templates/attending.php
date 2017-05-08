@@ -98,7 +98,7 @@
 						</div>
 						<div class="col-md-10 col-md-offset-1">
 							<div class="col-md-12 col-sm-12">
-								<button type="submit" class="btn btn-default btn-block">Send</button>
+								<button type="submit" class="btn btn-default btn-block rsvp-submit-send">Send</button>
 							</div>
 						</div>
 				</form>
