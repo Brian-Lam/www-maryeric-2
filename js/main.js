@@ -237,8 +237,6 @@
 				$(".rsvp-text").text(response["message"]);
 				return;
 			});
-
-
 		});
 	};
 
