@@ -220,11 +220,7 @@
 			var inputEmail = $("[name=rsvp-email]").val();
 			var inputName = $("[name=rsvp-name]").val();
 			
-			var data = 
-			{
-				name: inputName,
-				email: inputEmail
-			}
+			var data = $('.rsvp-form').serialize();
 
 			// Send the data using post
 			var posting = $.post( "rsvp-submit.php", data );
