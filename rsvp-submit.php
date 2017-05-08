@@ -34,10 +34,12 @@
     }
 
     // prepare and bind
-    $stmt = $conn->prepare("INSERT INTO RSVP (name1, attending1, menu1, shuttle1, breakfast1, comments1, name2, attending2, menu2, shuttle2, breakfast2, comments2, name3, attending3, menu3, shuttle3, breakfast3, comments3, name4, attending4, menu4, shuttle4, breakfast4, comments4, name5, attending5, menu5, shuttle5, breakfast5, comments5) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
-    $stmt->bind_param("ssssssssssssssssssssssssssssss", $name1, $attending1, $menu1, $shuttle1, $breakfast1, $comments1, $name2, $attending2, $menu2, $shuttle2, $breakfast2, $comments2, $name3, $attending3, $menu3, $shuttle3, $breakfast3, $comments3, $name4, $attending4, $menu4, $shuttle4, $breakfast4, $comments4, $name5, $attending5, $menu5, $shuttle5, $breakfast5, $comments5);
+    $stmt = $conn->prepare("INSERT INTO RSVP (count, name1, attending1, menu1, shuttle1, breakfast1, comments1, name2, attending2, menu2, shuttle2, breakfast2, comments2, name3, attending3, menu3, shuttle3, breakfast3, comments3, name4, attending4, menu4, shuttle4, breakfast4, comments4, name5, attending5, menu5, shuttle5, breakfast5, comments5) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
+    $stmt->bind_param("issssssssssssssssssssssssssssss", $count, $name1, $attending1, $menu1, $shuttle1, $breakfast1, $comments1, $name2, $attending2, $menu2, $shuttle2, $breakfast2, $comments2, $name3, $attending3, $menu3, $shuttle3, $breakfast3, $comments3, $name4, $attending4, $menu4, $shuttle4, $breakfast4, $comments4, $name5, $attending5, $menu5, $shuttle5, $breakfast5, $comments5);
 
     // set parameters and execute
+    $count = $_POST["partycount"];
+
     $name1 = $_POST["name-1"];
     $attending1 = $_POST["attending-1"];
     $menu1 = $_POST["menu-1"];
