@@ -43,8 +43,9 @@
 										<label for="attending" class="sr-only">Will you be attending?</label>
 										<p class="form-label-p">Will you be attending? <span class="name-label-common name-label-common name-label-<?php echo $i;?>">(Guest <?php echo $i;?>)</span></p>
 										<select name="attending-<?php echo $i;?>" class="form-control form-select">
-											<option>Accepts with Pleasure</option>
-											<option>Declines with Regret</option>
+										    <option value="" disabled selected></option>
+											<option>Yes</option>
+											<option>No</option>
 										</select>
 									</div>
 								</div>
@@ -54,6 +55,7 @@
 										<label for="attending" class="sr-only">Menu Choice</label>
 										<p class="form-label-p">Menu choice <span class="name-label-common name-label-<?php echo $i;?>">(Guest <?php echo $i;?>)</span></p>
 										<select name="menu-<?php echo $i;?>" class="form-control form-select">
+										    <option value="" disabled selected></option>
 											<option>Salmon</option>
 											<option>Filet Mignon</option>
 										</select>
@@ -66,22 +68,9 @@
 										<p class="form-label-p">A shuttle will be available to bring guests from the Aloft Bolingbrook hotel to the wedding on the 3rd. Do you plan to use the shuttle? <span class="name-label-common name-label-<?php echo $i;?>">(Guest <?php echo $i;?>)</span> </p>
 										
 										<select name="shuttle-<?php echo $i;?>" class="form-control form-select">
+										    <option value="" disabled selected></option>
 											<option>Yes</option>
 											<option>No</option>
-											<option>Maybe</option>
-										</select>
-									</div>
-								</div>
-
-								<div class="col-md-12 col-sm-12">
-									<div class="form-group">
-										<label for="attending" class="sr-only">We will host a casual goodbye breakfast on Sept. 4th at the Aloft Bolingbrook. Do you plan to attend? </label>
-										<p class="form-label-p">We will host a casual goodbye breakfast on Sept. 4th at the Aloft Bolingbrook. Do you plan to attend? <span class="name-label-common name-label-<?php echo $i;?>">(Guest <?php echo $i;?>)</span> </p>
-										
-										<select name="breakfast-<?php echo $i;?>" class="form-control form-select">
-											<option>Yes</option>
-											<option>No</option>
-											<option>Maybe</option>
 										</select>
 									</div>
 								</div>

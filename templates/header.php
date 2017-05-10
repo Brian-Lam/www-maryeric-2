@@ -11,6 +11,7 @@
 						<li><a href="wedding.php">Wedding</a></li>
 						<li><a href="travel.php">Travel</a></li>
 						<li><a href="registry.php">Registry</a></li>
+						<li><a href="thingstodo.php">Things To Do</a></li>
 						<li><a href="rsvp.php">RSVP</a></li>
 						<!--<li class="has-dropdown">
 							<a href="services.html">Services</a>
