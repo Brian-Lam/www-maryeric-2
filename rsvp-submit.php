@@ -47,7 +47,7 @@
     // prepare and bind
     $stmt = $conn->prepare("INSERT INTO RSVP (count, name1, attending1, menu1, shuttle1, comments1, dietary1, name2, attending2, menu2, shuttle2, comments2, dietary2, name3, attending3, menu3, shuttle3, comments3, dietary3, name4, attending4, menu4, shuttle4, comments4, dietary4, name5, attending5, menu5, shuttle5, comments5, dietary5)  VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
     
-    $stmt->bind_param("isssssssssssssssssssssssss", $count, $name1, $attending1, $menu1, $shuttle1, $comments1, $dietary1, $name2, $attending2, $menu2, $shuttle2, $comments2, $dietary2, $name3, $attending3, $menu3, $shuttle3, $comments3, $dietary3, $name4, $attending4, $menu4, $shuttle4, $comments4, $dietary4, $name5, $attending5, $menu5, $shuttle5, $comments5, $dietary5);
+    $stmt->bind_param("issssssssssssssssssssssssssssss", $count, $name1, $attending1, $menu1, $shuttle1, $comments1, $dietary1, $name2, $attending2, $menu2, $shuttle2, $comments2, $dietary2, $name3, $attending3, $menu3, $shuttle3, $comments3, $dietary3, $name4, $attending4, $menu4, $shuttle4, $comments4, $dietary4, $name5, $attending5, $menu5, $shuttle5, $comments5, $dietary5);
 
     // set parameters and execute
     $count = getResponseField("partycount");
