@@ -17,6 +17,7 @@
             $count = $row["count"];
 
             displayRow($row, "count");
+            echo "<br>";
             displayRow($row, "name1");
             displayRow($row, "attending1");
             displayRow($row, "menu1");
@@ -26,6 +27,7 @@
 
             if ($count >= 2) 
             {
+                echo "<br>";
                 displayRow($row, "name2");
                 displayRow($row, "attending2");
                 displayRow($row, "menu2");
@@ -36,6 +38,7 @@
 
             if ($count >= 3) 
             {
+                echo "<br>";
                 displayRow($row, "name3");
                 displayRow($row, "attending3");
                 displayRow($row, "menu3");
@@ -46,6 +49,7 @@
             
             if ($count >= 4) 
             {
+                echo "<br>";
                 displayRow($row, "name4");
                 displayRow($row, "attending4");
                 displayRow($row, "menu4");
@@ -56,6 +60,7 @@
 
             if ($count >= 5) 
             {
+                echo "<br>";
                 displayRow($row, "name5");
                 displayRow($row, "attending5");
                 displayRow($row, "menu5");
