@@ -66,7 +66,6 @@
 							<h1>Mary &amp; Eric</h1>
 							<h2>September 3, 2017</h2>
 							<div class="simply-countdown simply-countdown-one"></div>
-							<p><a href="#" class="btn btn-default btn-sm">RSVP</a></p>
 						</div>
 					</div>
 				</div>

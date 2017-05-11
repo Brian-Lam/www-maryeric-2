@@ -65,7 +65,8 @@ For more information and recommendations, check out <a href="http://www.choosech
 <br />
 <h4>Check it Out</h4>
 &bull;  Saturday, Sept. 2nd happens to be the annual <a href="http://www.lemont.il.us/calendar.aspx?view=list&amp;year=2017&amp;month=9&amp;day=2">Lemont Heritage Fest</a>! There will be a parade at 2 pm in downtown Lemont, followed by food, family fun, and entertainment! Eric and I had a great time there last year in the historic downtown area.
-&bull;<a href="https://www.shoppingpromenade.com/">The Promenade Bolingbrook</a>: This outdoor mall is perfect for window-shopping or grabbing a bite to eat.
+<br />
+&bull; <a href="https://www.shoppingpromenade.com/">The Promenade Bolingbrook</a>: This outdoor mall is perfect for window-shopping or grabbing a bite to eat.
 <br />
 &bull; <a href="http://www.napersettlement.org/index.aspx?NID=27">Naper Settlement</a>: This outdoor history museum in Naperville makes you feel like you are stepping back in time!
 <br />

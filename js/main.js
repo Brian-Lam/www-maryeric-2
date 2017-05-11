@@ -262,31 +262,17 @@
 			}
 		});
 
-		$("#name-1").change(function(){
-			var name = $(this).val();
-			$(".name-label-1").html("(" + name + ")");
+		$(".question-attending").change(function(){
+			var response = $(this).val();
+			if (response == "No")
+			{
+				$(this).parent().parent().parent().find(".question-attending-show").slideUp();
+			}
+			else 
+			{
+				$(this).parent().parent().parent().find(".question-attending-show").slideDown();
+			}
 		});
-
-		$("#name-2").change(function(){
-			var name = $(this).val();
-			$(".name-label-2").html("(" + name + ")");
-		});
-
-		$("#name-3").change(function(){
-			var name = $(this).val();
-			$(".name-label-3").html("(" + name + ")");
-		});
-
-		$("#name-4").change(function(){
-			var name = $(this).val();
-			$(".name-label-4").html("(" + name + ")");
-		});
-
-		$("#name-5").change(function(){
-			var name = $(this).val();
-			$(".name-label-5").html("(" + name + ")");
-		});
-
 	}
 
 	

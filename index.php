@@ -66,7 +66,7 @@
 							<h1>Mary &amp; Eric</h1>
 							<h2>September 3, 2017</h2>
 							<div class="simply-countdown simply-countdown-one"></div>
-							<p><a href="#" class="btn btn-default btn-sm">Save the date</a></p>
+							<p><a href="/rsvp.php" class="btn btn-default btn-sm">RSVP</a></p>
 						</div>
 					</div>
 				</div>
@@ -105,7 +105,7 @@
 	<!-- // <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/0.0.1/prism.min.js"></script> -->
 	<script src="js/simplyCountdown.js"></script>
 	<!-- Main -->
-	<script src="js/main.js?v=2"></script>
+	<script src="js/main.js?v=3"></script>
 
 	<script>
     var d = new Date("2017-09-3");

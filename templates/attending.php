@@ -1,3 +1,6 @@
+	<?php
+		if (isset($_GET["rsvp"])):
+	?>
 	<div id="fh5co-started" class="fh5co-bg" style="background-image:url(images/img_bg_3.jpg);">
 		<div class="overlay"></div>
 		<div class="container">
@@ -42,7 +45,7 @@
 									<div class="form-group">
 										<label for="attending" class="sr-only">Will you be attending?</label>
 										<p class="form-label-p">Will you be attending? <span class="name-label-common name-label-common name-label-<?php echo $i;?>">(Guest <?php echo $i;?>)</span></p>
-										<select name="attending-<?php echo $i;?>" class="form-control form-select">
+										<select name="attending-<?php echo $i;?>" class="form-control form-select question-attending">
 										    <option value="" disabled selected></option>
 											<option>Yes</option>
 											<option>No</option>
@@ -50,7 +53,7 @@
 									</div>
 								</div>
 
-								<div class="col-md-12 col-sm-12">
+								<div class="col-md-12 col-sm-12 question-block-menu question-attending-show">
 									<div class="form-group">
 										<label for="attending" class="sr-only">Menu Choice</label>
 										<p class="form-label-p">Menu choice <span class="name-label-common name-label-<?php echo $i;?>">(Guest <?php echo $i;?>)</span></p>
@@ -62,7 +65,7 @@
 									</div>
 								</div>
 
-								<div class="col-md-12 col-sm-12">
+								<div class="col-md-12 col-sm-12 question-block-shuttle question-attending-show">
 									<div class="form-group">
 										<label for="attending" class="sr-only">Do you plan on using the shuttle?</label>
 										<p class="form-label-p">A shuttle will be available to bring guests from the Aloft Bolingbrook hotel to the wedding on the 3rd. Do you plan to use the shuttle? <span class="name-label-common name-label-<?php echo $i;?>">(Guest <?php echo $i;?>)</span> </p>
@@ -75,7 +78,15 @@
 									</div>
 								</div>
 
-								<div class="col-md-12 col-sm-12">
+								<div class="col-md-12 col-sm-12 question-attending-show">
+									<div class="form-group">
+										<label for="comments" class="sr-only">Dietary Restrictions</label>
+										<p class="form-label-p">Dietary Restrictions<span class="name-label-common name-label-<?php echo $i;?>">(Guest <?php echo $i;?>)</span> </p>
+										<input type="text" class="form-control" id="Dietary" name="dietary-<?php echo $i;?>" placeholder="Do you have any dietary restrictions?">
+									</div>
+								</div>
+
+								<div class="col-md-12 col-sm-12 question-attending-show">
 									<div class="form-group">
 										<label for="comments" class="sr-only">Comments</label>
 										<p class="form-label-p">Other comments <span class="name-label-common name-label-<?php echo $i;?>">(Guest <?php echo $i;?>)</span> </p>
@@ -95,3 +106,15 @@
 		</div>
 	</div>
 	</div>
+	<?php else: ?>
+		<div id="fh5co-started" class="fh5co-bg" style="background-image:url(images/img_bg_3.jpg);">
+			<div class="overlay"></div>
+				<div class="container">
+					<div class="row animate-box">
+						<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+							<h2>RSVP Form coming soon!</h2>
+						</div>
+					</div>
+				</div>
+		</div>
+	<?php endif; ?>
