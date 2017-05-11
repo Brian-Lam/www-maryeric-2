@@ -14,7 +14,7 @@
     if ($result->num_rows > 0) {
         // output data of each row
         while($row = $result->fetch_assoc()) {
-            $count = $_POST["count"];
+            $count = $row["count"];
 
             displayRow($row, "count");
             displayRow($row, "name1");
