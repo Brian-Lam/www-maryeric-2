@@ -3,7 +3,7 @@
 
     $conn = new mysqli($servername, $username, $password, $dbname);
 
-    function displayRow($name)
+    function displayRow($row, $name)
     {
         echo "$name: " . $row[$name] . "<br>";
     }
@@ -14,37 +14,37 @@
     if ($result->num_rows > 0) {
         // output data of each row
         while($row = $result->fetch_assoc()) {
-            displayRow("count");
-            displayRow("name1");
-            displayRow("attending1");
-            displayRow("menu1");
-            displayRow("shuttle1");
-            displayRow("comments1");
-            displayRow("dietary1");
-            displayRow("name2");
-            displayRow("attending2");
-            displayRow("menu2");
-            displayRow("shuttle2");
-            displayRow("comments2");
-            displayRow("dietary2");
-            displayRow("name3");
-            displayRow("attending3");
-            displayRow("menu3");
-            displayRow("shuttle3");
-            displayRow("comments3");
-            displayRow("dietary3");
-            displayRow("name4");
-            displayRow("attending4");
-            displayRow("menu4");
-            displayRow("shuttle4");
-            displayRow("comments4");
-            displayRow("dietary4");
-            displayRow("name5");
-            displayRow("attending5");
-            displayRow("menu5");
-            displayRow("shuttle5");
-            displayRow("comments5");
-            displayRow("dietary5");
+            displayRow($row, "count");
+            displayRow($row, "name1");
+            displayRow($row, "attending1");
+            displayRow($row, "menu1");
+            displayRow($row, "shuttle1");
+            displayRow($row, "comments1");
+            displayRow($row, "dietary1");
+            displayRow($row, "name2");
+            displayRow($row, "attending2");
+            displayRow($row, "menu2");
+            displayRow($row, "shuttle2");
+            displayRow($row, "comments2");
+            displayRow($row, "dietary2");
+            displayRow($row, "name3");
+            displayRow($row, "attending3");
+            displayRow($row, "menu3");
+            displayRow($row, "shuttle3");
+            displayRow($row, "comments3");
+            displayRow($row, "dietary3");
+            displayRow($row, "name4");
+            displayRow($row, "attending4");
+            displayRow($row, "menu4");
+            displayRow($row, "shuttle4");
+            displayRow($row, "comments4");
+            displayRow($row, "dietary4");
+            displayRow($row, "name5");
+            displayRow($row, "attending5");
+            displayRow($row, "menu5");
+            displayRow($row, "shuttle5");
+            displayRow($row, "comments5");
+            displayRow($row, "dietary5");
         }
     } else {
         echo "0 results";
