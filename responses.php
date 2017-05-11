@@ -45,6 +45,7 @@
             displayRow($row, "shuttle5");
             displayRow($row, "comments5");
             displayRow($row, "dietary5");
+            echo "<hr>"
         }
     } else {
         echo "0 results";
