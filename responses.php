@@ -1,4 +1,7 @@
 <?php
+    require "db.php";
+
+    $conn = new mysqli($servername, $username, $password, $dbname);
 
     function displayRow($name)
     {
