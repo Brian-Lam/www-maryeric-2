@@ -19,7 +19,7 @@
 							</div>
 						</div>
 					</div>
-					<button type="submit" class="btn btn-default btn-block">Send Response</button>
+					<button type="submit" class="btn btn-default btn-block">Continue</button>
 				</form>
 			</div>
 			</div>
