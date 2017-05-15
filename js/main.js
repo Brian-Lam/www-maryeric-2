@@ -213,6 +213,35 @@
 		$(window).stellar();
 	};
 
+	var rsvpPassword = function() {
+		$(".rsvp-password").submit(function(e){
+			e.preventDefault();
+
+			var data = $(this).serialize();
+
+			// Send the data using post
+			var posting = $.post( "password-check.php", data );
+
+			// Put the results in a div
+			posting.done(function( data ) {
+				var response = JSON.parse(data);
+				
+				if (response["success"]) {
+					$(".rsvp-password").slideUp();
+					$(".rsvp-form").slideDown();
+					$("#password-copy").val($("#password-original").val());
+					return;
+				}
+
+				$(".password-text").text(response["message"]);
+				$(".password-text").show();
+				$(".rsvp-submit-send").show();
+				return;
+			});
+		});
+	};
+
+
 	var rsvpForm = function() {
 		$(".rsvp-form").submit(function(e){
 			e.preventDefault();
@@ -279,7 +308,6 @@
 
 	
 	$(function(){
-		
 		mobileMenuOutsideClick();
 		parallax();
 		offcanvasMenu();
@@ -292,6 +320,7 @@
 		counter();
 		counterWayPoint();
 		rsvpForm();
+		rsvpPassword();
 		hideRSVPForm();
 		RSVPFormDynamic();
 	});

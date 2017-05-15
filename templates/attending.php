@@ -5,12 +5,22 @@
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row animate-box">
+				<form class="rsvp-password">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>RSVP Here</h2>
-					<p class="rsvp-text">Please fill out this form to RSVP. Thanks!</p>
+					<h2>RSVP</h2>
 				</div>
-				<button type="submit" class="btn btn-default rsvp-start btn-block">Send Response</button>
-				</div>
+					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+						<div class="col-md-12 col-sm-12 question-attending-show">
+							<p class="password-text"></p>
+							<div class="form-group">
+								<label for="password" class="sr-only">Password</label>
+									<input type="text" class="form-control" id="password-original" name="password" placeholder="Password">
+							</div>
+						</div>
+					</div>
+					<button type="submit" class="btn btn-default btn-block">Send Response</button>
+				</form>
+			</div>
 			</div>
 			<div class="row animate-box">
 				<form class="form-inline rsvp-form">
@@ -95,20 +105,13 @@
 								</div>
 							</div>
 					<?php endfor; ?>
-							<div class="col-md-12 col-sm-12 question-attending-show">
-								<div class="form-group">
-									<label for="password" class="sr-only">Password</label>
-									<p class="form-label-p">Password</p>
-									<input type="text" class="form-control" id="password" name="password" placeholder="Password">
-								</div>
-							</div>
-						</div>
-
 						<div class="col-md-10 col-md-offset-1">
 							<div class="col-md-12 col-sm-12">
 									<p class="error-text" style="color:white"></p>
 							</div>
 						</div>
+
+					<input type="hidden" id="password-copy" name="password" placeholder="Password">
 
 						<div class="col-md-10 col-md-offset-1">
 							<div class="col-md-12 col-sm-12">

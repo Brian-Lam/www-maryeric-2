@@ -105,7 +105,7 @@
 	<!-- // <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/0.0.1/prism.min.js"></script> -->
 	<script src="js/simplyCountdown.js"></script>
 	<!-- Main -->
-	<script src="js/main.js?v=3"></script>
+	<script src="js/main.js?v=4"></script>
 
 	<script>
     var d = new Date("2017-09-3");
