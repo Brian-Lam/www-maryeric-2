@@ -5,11 +5,11 @@
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row animate-box">
-				<form class="rsvp-password">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
 					<h2>RSVP</h2>
 					<p class="rsvp-text">Please fill out this form to RSVP. Thanks!</p>
 				</div>
+				<form class="rsvp-password">
 					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
 						<div class="col-md-12 col-sm-12 question-attending-show">
 							<p class="password-text"></p>
