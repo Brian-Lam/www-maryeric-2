@@ -236,6 +236,7 @@
 
 				$(".error-text").text(response["message"]);
 				$(".error-text").show();
+				$(".rsvp-submit-send").show();
 				return;
 			});
 		});
