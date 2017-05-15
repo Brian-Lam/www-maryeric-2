@@ -38,7 +38,7 @@
 	<link rel="stylesheet" href="css/owl.theme.default.min.css">
 
 	<!-- Theme style  -->
-	<link rel="stylesheet" href="css/style.css?v=2">
+	<link rel="stylesheet" href="css/style.css?v=3">
 
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
@@ -105,7 +105,7 @@
 	<!-- // <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/0.0.1/prism.min.js"></script> -->
 	<script src="js/simplyCountdown.js"></script>
 	<!-- Main -->
-	<script src="js/main.js?v=4"></script>
+	<script src="js/main.js?v=5"></script>
 
 	<script>
     var d = new Date("2017-09-3");
