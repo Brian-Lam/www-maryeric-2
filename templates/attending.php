@@ -95,7 +95,21 @@
 								</div>
 							</div>
 					<?php endfor; ?>
+							<div class="col-md-12 col-sm-12 question-attending-show">
+								<div class="form-group">
+									<label for="password" class="sr-only">Password</label>
+									<p class="form-label-p">Password</p>
+									<input type="text" class="form-control" id="password" name="password" placeholder="Password">
+								</div>
+							</div>
 						</div>
+
+						<div class="col-md-10 col-md-offset-1">
+							<div class="col-md-12 col-sm-12">
+									<p class="error-text" style="color:white"></p>
+							</div>
+						</div>
+
 						<div class="col-md-10 col-md-offset-1">
 							<div class="col-md-12 col-sm-12">
 								<button type="submit" class="btn btn-default btn-block rsvp-submit-send">Send</button>

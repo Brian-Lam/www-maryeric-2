@@ -218,7 +218,7 @@
 			e.preventDefault();
 
 			$(".rsvp-submit-send").hide();
-
+			$(".error-text").hide();
 			var data = $('.rsvp-form').serialize();
 
 			// Send the data using post
@@ -234,7 +234,8 @@
 					return;
 				}
 
-				$(".rsvp-text").text(response["message"]);
+				$(".error-text").text(response["message"]);
+				$(".error-text").show();
 				return;
 			});
 		});

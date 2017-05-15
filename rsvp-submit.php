@@ -1,5 +1,6 @@
 <?php
     require "db.php";
+    require "password.php";
 
     // Setup
     $success = false;
@@ -23,7 +24,7 @@
     }
 
     // Required fields
-    $required_fields = array("name-1", "attending-1", "menu-1", "shuttle-1");
+    $required_fields = array("name-1", "attending-1", "menu-1", "shuttle-1", "password");
 
     // Check empty fields here
     foreach ($required_fields as $field) {
@@ -32,6 +33,13 @@
             $message = "Please make sure the $field field isn't ' empty";
             sendResponse($success, $message);
         }
+    }
+
+    if ($_POST["password"] != $password)
+    {
+        $success = false;
+        $message = "Wrong password!";
+        sendResponse($success, $message);
     }
 
     // Create connection
