@@ -72,7 +72,7 @@
     $attending2 = getResponseField("attending-2");
     $menu2 = getResponseField("menu-2");
     $shuttle2 = getResponseField("shuttle-2");
-    $contact1 = getResponseField("contact-2");
+    $contact2 = getResponseField("contact-2");
     $comments2 = getResponseField("comments-2");
     $dietary2 = getResponseField("dietary-2");
 
@@ -80,7 +80,7 @@
     $attending3 = getResponseField("attending-3");
     $menu3 = getResponseField("menu-3");
     $shuttle3 = getResponseField("shuttle-3");
-    $contact1 = getResponseField("contact-3");    
+    $contact3 = getResponseField("contact-3");    
     $comments3 = getResponseField("comments-3");
     $dietary3 = getResponseField("dietary-3");
 
@@ -88,7 +88,7 @@
     $attending4 = getResponseField("attending-4");
     $menu4 = getResponseField("menu-4");
     $shuttle4 = getResponseField("shuttle-4");
-    $contact1 = getResponseField("contact-4");
+    $contact4 = getResponseField("contact-4");
     $comments4 = getResponseField("comments-4");
     $dietary4 = getResponseField("dietary-4");
 
@@ -96,7 +96,7 @@
     $attending5 = getResponseField("attending-5");
     $menu5 = getResponseField("menu-5");
     $shuttle5 = getResponseField("shuttle-5");
-    $contact1 = getResponseField("contact-5");
+    $contact5 = getResponseField("contact-5");
     $comments5 = getResponseField("comments-5");
     $dietary5 = getResponseField("dietary-5");
 
