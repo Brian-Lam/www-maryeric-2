@@ -43,7 +43,7 @@
     $attending3 = "attending-3";
     $menu3 = "menu-3";
     $shuttle3 = "shuttle-3";
-    $contact1 = "contact-3");   
+    $contact1 = "contact-3";   
     $comments3 = "comments-3";
     $dietary3 = "dietary-3";
 
