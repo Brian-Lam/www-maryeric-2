@@ -99,6 +99,14 @@
 
 								<div class="col-md-12 col-sm-12 question-attending-show">
 									<div class="form-group">
+										<label for="contact" class="sr-only">Contact Information</label>
+										<p class="form-label-p">Contact Information <span class="name-label-common name-label-<?php echo $i;?>">(Guest <?php echo $i;?>)</span> </p>
+										<input type="text" class="form-control" id="contact" name="contact-<?php echo $i;?>" placeholder="Contact Information">
+									</div>
+								</div>
+								
+								<div class="col-md-12 col-sm-12 question-attending-show">
+									<div class="form-group">
 										<label for="comments" class="sr-only">Comments</label>
 										<p class="form-label-p">Other comments <span class="name-label-common name-label-<?php echo $i;?>">(Guest <?php echo $i;?>)</span> </p>
 										<input type="text" class="form-control" id="comments" name="comments-<?php echo $i;?>" placeholder="Other comments or well wishes">

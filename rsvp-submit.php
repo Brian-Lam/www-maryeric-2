@@ -53,9 +53,9 @@
     }
 
     // prepare and bind
-    $stmt = $conn->prepare("INSERT INTO RSVP (count, name1, attending1, menu1, shuttle1, comments1, dietary1, name2, attending2, menu2, shuttle2, comments2, dietary2, name3, attending3, menu3, shuttle3, comments3, dietary3, name4, attending4, menu4, shuttle4, comments4, dietary4, name5, attending5, menu5, shuttle5, comments5, dietary5)  VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
+    $stmt = $conn->prepare("INSERT INTO RSVP (count, name1, attending1, menu1, shuttle1, contact1, comments1, dietary1, name2, attending2, menu2, shuttle2, contact2, comments2, dietary2, name3, attending3, menu3, shuttle3, contact3, comments3, dietary3, name4, attending4, menu4, shuttle4, contact4, comments4, dietary4, name5, attending5, menu5, shuttle5, contact5, comments5, dietary5)  VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
     
-    $stmt->bind_param("issssssssssssssssssssssssssssss", $count, $name1, $attending1, $menu1, $shuttle1, $comments1, $dietary1, $name2, $attending2, $menu2, $shuttle2, $comments2, $dietary2, $name3, $attending3, $menu3, $shuttle3, $comments3, $dietary3, $name4, $attending4, $menu4, $shuttle4, $comments4, $dietary4, $name5, $attending5, $menu5, $shuttle5, $comments5, $dietary5);
+    $stmt->bind_param("isssssssssssssssssssssssssssssssssss", $count, $name1, $attending1, $menu1, $shuttle1, $contact1, $comments1, $dietary1, $name2, $attending2, $menu2, $shuttle2, $contact2, $comments2, $dietary2, $name3, $attending3, $menu3, $shuttle3, $contact3, $comments3, $dietary3, $name4, $attending4, $menu4, $shuttle4, $contact4, $comments4, $dietary4, $name5, $attending5, $menu5, $shuttle5, $contact5, $comments5, $dietary5);
 
     // set parameters and execute
     $count = getResponseField("partycount");
@@ -65,12 +65,14 @@
     $menu1 = getResponseField("menu-1");
     $shuttle1 = getResponseField("shuttle-1");
     $comments1 = getResponseField("comments-1");
+    $contact1 = getResponseField("contact-1");
     $dietary1 = getResponseField("dietary-1");
 
     $name2 = getResponseField("name-2");
     $attending2 = getResponseField("attending-2");
     $menu2 = getResponseField("menu-2");
     $shuttle2 = getResponseField("shuttle-2");
+    $contact1 = getResponseField("contact-2");
     $comments2 = getResponseField("comments-2");
     $dietary2 = getResponseField("dietary-2");
 
@@ -78,6 +80,7 @@
     $attending3 = getResponseField("attending-3");
     $menu3 = getResponseField("menu-3");
     $shuttle3 = getResponseField("shuttle-3");
+    $contact1 = getResponseField("contact-3");    
     $comments3 = getResponseField("comments-3");
     $dietary3 = getResponseField("dietary-3");
 
@@ -85,6 +88,7 @@
     $attending4 = getResponseField("attending-4");
     $menu4 = getResponseField("menu-4");
     $shuttle4 = getResponseField("shuttle-4");
+    $contact1 = getResponseField("contact-4");
     $comments4 = getResponseField("comments-4");
     $dietary4 = getResponseField("dietary-4");
 
@@ -92,6 +96,7 @@
     $attending5 = getResponseField("attending-5");
     $menu5 = getResponseField("menu-5");
     $shuttle5 = getResponseField("shuttle-5");
+    $contact1 = getResponseField("contact-5");
     $comments5 = getResponseField("comments-5");
     $dietary5 = getResponseField("dietary-5");
 
