@@ -1,6 +1,3 @@
-	<?php
-		if (isset($_GET["rsvp"])):
-	?>
 	<div id="fh5co-started" class="fh5co-bg" style="background-image:url(images/img_bg_3.jpg);">
 		<div class="overlay"></div>
 		<div class="container">
@@ -132,15 +129,3 @@
 		</div>
 	</div>
 	</div>
-	<?php else: ?>
-		<div id="fh5co-started" class="fh5co-bg" style="background-image:url(images/img_bg_3.jpg);">
-			<div class="overlay"></div>
-				<div class="container">
-					<div class="row animate-box">
-						<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-							<h2>RSVP Form coming soon!</h2>
-						</div>
-					</div>
-				</div>
-		</div>
-	<?php endif; ?>
