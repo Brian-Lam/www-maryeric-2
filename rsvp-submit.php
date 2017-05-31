@@ -24,10 +24,10 @@
     }
 
     // Required fields
-    $required_fields = array("name-1", "attending-1", "menu-1", "shuttle-1", "password");
+    $required_fields_attending = array("name-1", "attending-1", "password");
 
     // Check empty fields here
-    foreach ($required_fields as $field) {
+    foreach ($required_fields_attending as $field) {
         if (!strlen($_POST[$field])) {
             $success = false;
             $message = "Please make sure the $field field isn't ' empty";

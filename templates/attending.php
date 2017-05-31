@@ -98,7 +98,7 @@
 									<div class="form-group">
 										<label for="contact" class="sr-only">Contact Information</label>
 										<p class="form-label-p">Contact Information <span class="name-label-common name-label-<?php echo $i;?>">(Guest <?php echo $i;?>)</span> </p>
-										<input type="text" class="form-control" id="contact" name="contact-<?php echo $i;?>" placeholder="Contact Information">
+										<input type="text" class="form-control" id="contact" name="contact-<?php echo $i;?>" placeholder="Email address">
 									</div>
 								</div>
 								
