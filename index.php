@@ -125,7 +125,9 @@
         enableUtc: false
     });
 
-	$(".simply-hours-section .simply-minutes-section .simply-seconds-section").hide();
+	$(document).ready(function(){
+		$(".simply-hours-section, .simply-minutes-section, .simply-seconds-section").hide();
+	});
 </script>
 
 	</body>
