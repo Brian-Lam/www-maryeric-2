@@ -108,7 +108,7 @@
 	<script src="js/main.js?v=5"></script>
 
 	<script>
-    var d = new Date("2017-09-3");
+    var d = new Date(Date.UTC(2017, 8, 3, 22, 30, 0));
 
     // default example
     simplyCountdown('.simply-countdown-one', {
