@@ -108,7 +108,7 @@
 	<script src="js/main.js?v=5"></script>
 
 	<script>
-    var d = new Date(Date.UTC(2017, 8, 3, 22, 30, 0));
+    var d = new Date(Date.UTC(2017, 8, 4, 0, 0, 0));
 
     // default example
     simplyCountdown('.simply-countdown-one', {
@@ -124,6 +124,8 @@
         day: d.getDate(),
         enableUtc: false
     });
+
+	$(".simply-hours-section .simply-minutes-section .simply-seconds-section").hide();
 </script>
 
 	</body>
